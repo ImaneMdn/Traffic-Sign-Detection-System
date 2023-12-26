@@ -57,7 +57,6 @@ if __name__ == "__main__":
 # # C:/Users/imane/Documents/GitHub/Potato-Disease-Classification/models/1
 # MODEL = tf.keras.models.load_model("./models/1")
 
-# CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
 
 # @app.get("/ping")
 # async def ping():
