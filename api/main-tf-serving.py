@@ -10,9 +10,7 @@ import pickle
 
 app = FastAPI()
 
-endpoint = "http://localhost:8501/v1/models/potatoes_model:predict"
-
-MODEL = tf.keras.models.load_model("./models/1")
+endpoint = "http://localhost:8501/v1/models/traffic_model:predict"
 
 with open("training/class_names.pkl", "rb") as file:
     CLASS_NAMES = pickle.load(file)

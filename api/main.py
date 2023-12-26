@@ -9,6 +9,19 @@ from keras import models, layers
 import pickle
 
 app = FastAPI()
+
+origins = [
+    "http://localhost", # Defines a list of origins (domains) that are allowed to access this AP
+    "http://localhost:3000",
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 MODEL = tf.keras.models.load_model("./models/1")
 
 with open("training/class_names.pkl", "rb") as file:
