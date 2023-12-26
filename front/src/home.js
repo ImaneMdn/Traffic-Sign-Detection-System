@@ -258,7 +258,7 @@ xs={12} means that this item will take up 12 units of space in the grid, effecti
                 {/**dropzone area is a component that allows users to drag and drop files, in this case, images. */}
                 <DropzoneArea
                   acceptedFiles={['image/*']}
-                  dropzoneText={"Drag and drop an image of a potato plant leaf to process"}
+                  dropzoneText={"Drag and drop an image of a traffic sign to process"}
                   onChange={onSelectFile}
                 />
               </CardContent>}
