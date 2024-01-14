@@ -20,7 +20,7 @@
 1. Install Nodejs.
 2. Install NPM.
 3. Install dependencies.
-4. 
+
 ## Setup for React-Native app
 
 1. Go to the [React Native environment setup](https://reactnative.dev/docs/environment-setup), then select `React Native CLI Quickstart` tab.  
@@ -42,23 +42,23 @@
 
 ### Using FastAPI & TF Serve
 
-1. Get inside `api` folder
-2. Run the TF Serve (Update config file path below)
+1. Get inside `api` folder.
+2. Run the TF Serve (Update config file path below).
 
 ```bash
 docker run -t --rm -p 8501:8501 -v C:/Code/Traffic-Sign-Detection-System:/Traffic-Sign-Detection-System tensorflow/serving --rest_api_port=8501 --model_config_file=/Traffic-Sign-Detection-System/models.config
 ```
 
-3. Run the FastAPI Server using uvicorn
+3. Run the FastAPI Server using uvicorn.
 ```bash
 uvicorn main-tf-serving:app --reload --host 0.0.0.0
 ```
 
 ## Running the Frontend
 
-1. Get inside `front` folder
+1. Get inside `front` folder.
 2. Update `REACT_APP_API_URL` to API URL in .env.
-3. Run the frontend
+3. Run the frontend.
 ```bash
 npm run start
 ```
