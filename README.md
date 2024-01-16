@@ -10,6 +10,20 @@
 ![image](https://github.com/ImaneMdn/Traffic-Sign-Detection-System/assets/115882702/1bb1cdd9-4ac6-45ec-b243-c79c6d43bf44)
 ![image](https://github.com/ImaneMdn/Traffic-Sign-Detection-System/assets/115882702/0ab45b63-3844-41b7-affa-a76bac1019ce)
 
+## Problem Statement:
+
+Recognizing the importance of road safety, there arose a critical need for an accurate and dependable traffic sign classification system. The challenge is clear: developing an end-to-end solution that ensures accurate and dependable traffic sign classification, addressing the nuanced demands of real-world scenarios.
+
+## Objective:
+
+To meet the imperative need for an advanced traffic sign classification system, I initiated the development of a comprehensive solution. The objectives are outlined as follows:
+
+1. Architect a Robust Neural Network: Utilize TensorFlow and tf Dataset for effective data augmentation and design a Convolutional Neural Network (CNN) architecture. This is essential for achieving an outstanding 88% classification accuracy, thereby contributing to reliable predictions and improving road safety.
+
+2. Deploy on Google Cloud Platform (GCP): Establish a seamless deployment of the trained model on GCP, ensuring scalability and accessibility. This step is crucial for integrating the model seamlessly into the React Native mobile application, enhancing the practicality and reach of the classification system.
+
+3. Integrate with React Native Application: Ensure the effective integration of the deployed model into a React Native mobile application. This integration facilitates real-time, on-the-go traffic sign classification, providing users with immediate and accurate insights to enhance their decision-making on the road.
+
 ## Setup for Python:
 
 1. Install Python.
