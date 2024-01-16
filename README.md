@@ -114,4 +114,4 @@ gcloud functions deploy predict_lite --runtime python38 --trigger-http --memory 
 ```
 
 8. Your model is now deployed.
-9. Use Postman to test the GCF using the [Trigger URL](https://cloud.google.com/functions/docs/calling/http).
+9. Use Postman to test the GCP using the [Trigger URL](https://cloud.google.com/functions/docs/calling/http).
